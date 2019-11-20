@@ -1,0 +1,23 @@
+{
+  "name": "dmax_ripper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jumoog/DMAX_ripper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jumoog/DMAX_ripper/issues"
+  },
+  "homepage": "https://github.com/jumoog/DMAX_ripper#readme",
+  "dependencies": {
+    "ffmpeg-static": "^2.7.0",
+    "puppeteer": "^2.0.0"
+  }
+}
