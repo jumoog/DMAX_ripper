@@ -1,4 +1,4 @@
-const URL = rocess.argv[2];
+const URL = process.argv[2];
 const {
     spawn
 } = require('child_process');
@@ -14,7 +14,7 @@ const puppeteer = require('puppeteer');
     const page = await browser.newPage();
     await page.goto(URL);
     const text = await page.evaluate(id => window.__APP_INITIAL_STATE__);
-    const streamUrlDash = text["/api/video-playback/" + URL.split("/")[4] + "/" + URL.split("/")[6]].playback.streamUrlDash;
+    const streamUrlDash = text["/api/video-playback/" + URL.split("/")[4] + "/" + URL.split("/")[6]].playback.streamUrlHls;
     const episodeNumber = text["/api/video-playback/" + URL.split("/")[4] + "/" + URL.split("/")[6]].video.episodeNumber;
     const seasonNumber = text["/api/video-playback/" + URL.split("/")[4] + "/" + URL.split("/")[6]].video.seasonNumber;
     const title = text["/api/video-playback/" + URL.split("/")[4] + "/" + URL.split("/")[6]].video.name;
