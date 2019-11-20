@@ -19,6 +19,7 @@ const puppeteer = require('puppeteer');
     const seasonNumber = text["/api/video-playback/" + URL.split("/")[4] + "/" + URL.split("/")[6]].video.seasonNumber;
     const title = text["/api/video-playback/" + URL.split("/")[4] + "/" + URL.split("/")[6]].video.name;
     const fileName = "S" + seasonNumber + ".F" + episodeNumber + "." + title + ".mp4";
+    await browser.close();
     startCapture(fileName, streamUrlDash);
 })();
 
