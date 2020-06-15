@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/jumoog/DMAX_ripper#readme",
   "dependencies": {
-    "ffmpeg-static": "^4.2.2",
+    "ffmpeg-static": "^4.2.3",
     "puppeteer": "^3.3.0"
   }
 }
