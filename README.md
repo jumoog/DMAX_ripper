@@ -1,5 +1,8 @@
 # DMAX_ripper
 
+## deprecated!
+use https://github.com/Brawl345/Get-DMAX-Links or my fork https://github.com/jumoog/Get-DMAX-Links
+
 ## grapper
 Will grab all seasons and episodes from show page and generate a shell script with all seasons and episodes. (the generated script will use the loader script for downloading)
 
